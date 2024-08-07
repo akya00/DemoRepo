@@ -20,6 +20,7 @@ import in.spring.entity.Employee;
 import in.spring.service.EmpService;
 
 @RestController
+	//@RestController
 public class EmpController {
 
 	@Autowired
