@@ -1,5 +1,5 @@
 package in.spring.controller;
-
+//adding a new line
 import java.util.List;
 import java.util.Map;
 
@@ -36,9 +36,16 @@ public class EmpController {
 	public void m1(){
 	}
 
+<<<<<<< HEAD
 public void m2(){
 	}
 //commiting the changes
+=======
+
+public void m2(){
+	}
+//creating 3rd method
+>>>>>>> 1c313cf1964e67683e26ab0f020beb107a8b68f1
 	@GetMapping("/get/{value}")
 	public ResponseEntity<List<Employee>> getEmps(@PathVariable("value") Double salary) {
 
