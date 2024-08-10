@@ -33,6 +33,8 @@ public class EmpController {
 
 		return new ResponseEntity(allEmps, HttpStatus.OK);
 	}
+	public void m1(){
+	}
 
 	@GetMapping("/get/{value}")
 	public ResponseEntity<List<Employee>> getEmps(@PathVariable("value") Double salary) {
