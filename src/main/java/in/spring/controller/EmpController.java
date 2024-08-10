@@ -38,7 +38,7 @@ public class EmpController {
 
 public void m2(){
 	}
-
+//commiting the changes
 	@GetMapping("/get/{value}")
 	public ResponseEntity<List<Employee>> getEmps(@PathVariable("value") Double salary) {
 
